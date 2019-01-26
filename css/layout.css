@@ -1,0 +1,118 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-size: 1rem;
+}
+a{
+	list-style-type: none;
+	color: #eff6ea;
+}
+.head{
+	width: 100%;
+	height: 4rem;
+	background: #07cbc9;
+}
+.banner{
+	width: 100%;
+	height: 29rem;
+	background: #6eff6f;
+	/*神奇，为什么会消除子元素margin影响的*/
+	overflow: hidden;
+}
+.banner .input{
+	width: 25rem;
+	height: 19rem;
+	background: gray;
+	/*float: ;*/
+	margin:6rem auto;
+}
+.about{
+	width: 100%;
+	height: 75rem;
+	background: #132e11;
+}
+.about .content1{
+	width: 53rem;
+	height: 36rem;
+	margin: 0 auto;
+	overflow: hidden;
+	background: gray;
+}
+.about .content1 .title{
+	width: 24rem;
+	height: 9rem;
+	margin: 3rem auto 0 auto;
+	background: pink;
+}
+.about .content1 .left,.about .content1 .left-null{
+	width: 9rem;
+	height: 5rem;
+	background: blue;
+}
+.about .content1 .left{
+	float: left;
+}
+.about .content1 .left-content{
+	width: 18rem;
+	height: 12rem;
+	margin-top: 5rem;
+	background: pink;
+	position: absolute;
+}
+.about .content1 .middle{
+	width: 28rem;
+	height: 18rem;
+	float: left;
+	background: blue;
+}
+.about .content1 .right-top,.about .content1 .right-bottom{
+	width: 12rem;
+	height: 7rem;
+	float: left;
+	margin-left: 2rem;
+	background: #FFFFFF;
+}
+.about .content1 .right-bottom{
+	margin-top: 1rem;
+}
+.content2{
+	width: 94rem;
+	height: 39rem;
+	background: gray;
+	margin: 0 auto;
+	overflow: hidden;
+}
+.content2 .box, .content2 .box1{
+	width: 23.5rem;
+	height: 19.5rem;
+	background: blue;
+	float: left;
+}
+.gallery{
+	width: 100%;
+	height: 48rem;
+	background: #FFFFFF;
+}
+.gallery .title{
+	width: 94rem;
+	height: 13rem;
+	background: pink;
+	margin: 0 auto;
+}
+.gallery .img{
+	width: 58rem;
+	height: 34rem;
+	margin:0 auto; 
+}
+.gallery .img .box{
+	width: 18rem;
+	height: 15rem;
+	float: left;
+	margin: 0 0.5rem 1rem 0.5rem;
+	background: gray;
+}
+.foot{
+	width: 100%;
+	height: 4rem;
+	background: #07cbc9;
+}
